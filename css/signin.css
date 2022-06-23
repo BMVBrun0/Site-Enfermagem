@@ -27,6 +27,10 @@ body {
   color: #6a9f72;
   font-family: 'Montserrat', sans-serif;
 }
+.btn-style:hover{
+    background-color:green;
+    color:white;
+}
 .form-signin {
   width: 100%;
   max-width: 300px;
