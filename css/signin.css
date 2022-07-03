@@ -20,12 +20,37 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.btn-style{
-  border-radius: 30px;
-  background-color: #BEF0C8;
-  border-color: #020304;
-  color: #6a9f72;
-  font-family: 'Montserrat', sans-serif;
+
+.buceta{
+    margin-bottom:20%;
+    padding-bottom:2%;
+}
+.caceta{
+    margin-top:-6%;
+    margin-bottom:10%;
+}
+.porra{
+    margin-top:-5%;
+}
+
+.btnCad {
+    border-color: lightgray;
+}
+.btnIMG {
+    border-color: transparent;
+}
+}
+
+.btn-style {
+    border-color: #BEF0C8;
+    border-radius: 30px;
+    background-color: #BEF0C8;
+    color: #6a9f72;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-style:hover{
+    background-color:green;
+    color:white;
 }
 .form-signin {
   width: 100%;
@@ -39,7 +64,6 @@ body {
   height: auto;
   padding: 10px;
   font-size: 16px;
-  border: 2px solid #9EE0B6;
   border-radius: 2px;
   font-family: 'Montserrat', sans-serif;
   text-align: center ;
